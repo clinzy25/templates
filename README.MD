@@ -6,6 +6,12 @@ Files may have small amounts of code that is used to check if things are working
 
 I will add a React template soon.
 
+If you have never used Eslint, you may need to add this line to your VScode settings.json:
+
+"eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ],
+
+\*I don't actually have a typescript or react guide here but might as well cover the bases in case you use them later.
+
 ---
 
 // html5-eslint
