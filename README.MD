@@ -103,7 +103,7 @@ Check package.json devDependencies for details.
 
 16. check browser and confirm
 
-    - 'test' <h1> visible
+    - 'test' \<h1> visible
     - scss var background color correct
     - in console
       - test objects visible
