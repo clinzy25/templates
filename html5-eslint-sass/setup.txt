@@ -10,7 +10,7 @@ npx install-peerdeps --dev eslint-config-airbnb-base
 
 5. If failed to load config airbnb base, npm install and restart vscode
 
-6. run live sass compiler
+6. run live sass compiler extention
 
 7. 
 check styles folder for index.css and index.css.map
