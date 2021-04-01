@@ -1,0 +1,58 @@
+1. 
+npm init -y
+
+2. 
+git init
+
+3. 
+npm i -D eslint eslint-plugin-jsdoc eslit-plugin-html eslint-config-prettier
+
+4. 
+npx install-peerdeps --dev eslint-config-airbnb-base
+
+5. 
+npm i --D webpack webpack-dev-server webpack-cli
+
+6. restart vscode
+
+7. check src/index.js and confirm
+    - eslint working
+    - prettier working
+    - eslint jsdocs extention working
+
+8. 
+npm i -D babel-loader @babel/core @babel/preset-env
+
+9. confirm 
+    - babel.config.js
+    - webpack.config has babel-loader
+
+10. 
+npm i -D css-loader mini-css-extract-plugin postcss postcss-preset-env postcss-loader sass sass-loader
+
+11. restart vscode for good luck
+
+12. npm run build
+
+13. check dist for main.js. confirm babel functions
+
+14. move index.html into dist
+
+15. npm start
+
+16. check browser and confirm
+    - 'test' <h1> visible
+    - scss var background color correct
+    - in console
+        - test objects visible
+        - live reloading enabled
+        - hot reloading enabled
+    - in sources
+        - main.js shows source-map
+        - index.js shows normal source code
+
+17. clean package.json
+
+18. clean test fns from index.js and test scss
+
+19. npm prune
