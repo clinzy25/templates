@@ -36,14 +36,14 @@ module.exports = {
     devtool: 'source-map',
     devServer: {
         contentBase: './dist',
+        watchContentBase: true,
         hot: true,
     },
 };
 
 /**
- * @property {app} - which file to parse
- * @property {path} - imported above, __dirname will default current dir, 'build' will be dirname of bundled output
  * @property {filename} - name of bundled file
- * @property {options} - 'query' deprecated
  * @property {devtool} - 'false' will remove source maps from main.js. 'source-map' will show pre-built code in the browser
+ * @property {watchContentBase} - watches the dist folder for changes, for live reloading of index.html changes
+ * @property {hot} - hot reloading exchanges, adds, or removes modules while an application is running, without a full reload
  */

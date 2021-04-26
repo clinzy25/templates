@@ -3,7 +3,7 @@
 2. git init
 
 3. 
-npm i -D eslint eslint-plugin-jsdoc eslit-plugin-html eslint-config-prettier postcss postcss-preset-env
+npm i -D eslint eslint-plugin-jsdoc eslint-plugin-html eslint-config-prettier postcss postcss-preset-env
 
 4. 
 npx install-peerdeps --dev eslint-config-airbnb-base
