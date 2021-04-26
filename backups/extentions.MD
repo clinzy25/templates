@@ -1,0 +1,19 @@
+## List of VSCode extensions
+
+- Bracket pair colorizer
+- Color highlight
+- Debugger for Chrome
+- DotENV
+- ES7 React/Redux/GraphQL snippets
+- ESLint
+- Indenticator
+- jsdoc
+- Live Sass Compiler
+- Live Server
+- Markdown All in One
+- One Dark Pro
+- open in browser
+- Prettier - Code Formatter
+- Quokka.js
+- Remote - WSL
+- vscode-styled-components

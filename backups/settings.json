@@ -1,0 +1,53 @@
+{
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.automationShell.linux": "",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "eslint.validate": ["javascript", "javascriptreact", "html"],
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.ChromeDebuggingAttachment": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --incognito --remote-debugging-port=9222",
+  "workbench.colorTheme": "One Dark Pro",
+  "git.enableSmartCommit": true,
+  "explorer.compactFolders": false,
+  "emmet.excludeLanguages": ["markdown"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.colorCustomizations": {
+    "editorSuggestWidget.background": "#3636369c"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.bracketSpacing": true,
+  "editor.formatOnPaste": true,
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.javascript.usePreview": false,
+  "files.autoSaveDelay": 1500,
+  "editor.trimAutoWhitespace": false,
+  "json.maxItemsComputed": 20000,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
+}
