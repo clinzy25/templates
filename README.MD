@@ -130,7 +130,8 @@ Check package.json devDependencies for details.
 
 1. Create react app, replace 'my-app' with project name
    `npx create-react-app my-app`
-2. `npx install-peerdeps --dev eslint-config-airbnb`
+2. Install airbnb peer dependencies (eslint, eslint-plugin-import, eslint-plugin-react, eslint-plugin-react-hooks, and eslint-plugin-jsx-a11y)
+   `npx install-peerdeps --dev eslint-config-airbnb`
 
 //order is important here, plugins like being installed at the end: 2. `npm i -D eslint-config-prettier eslint-plugin-styled-components-a11y eslint-plugin-jsdoc eslint-plugin-html`
 
