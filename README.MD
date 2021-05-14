@@ -2,13 +2,11 @@ I made these for myself to make project setup a bit quicker and more reliable. T
 
 These templates work on Windows using npm, I have not tested on any other OS or package manager.
 
-Each directory contains the minimal config files for the setup in the directory name. Following commands in setup.MD will allow you to set up your dev environment will all the necessary dependencies quickly and reliably every time. I have made some preferential changes to the configs. While you could just download the package.json and run `npm install`, it's good to step through the process, checking for errors along the way.
+Each directory contains the minimal config files for the setup in the directory name. Following commands in setup.MD will allow you to set up your dev environment will all the necessary dependencies quickly and reliably every time. I have made some preferential changes to the configs. While you could just copy a template and run `npm install` (since all the dependencies are listed in `package.json`), it's good to step through the process, checking for errors along the way.
 
 If you have never used Eslint, you may need to add this line to your VScode settings.json:
 
 `"eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ],`
-
-\*I don't actually have a typescript or react guide here but might as well cover the bases in case you use them later.
 
 ---
 
@@ -61,6 +59,34 @@ Check package.json devDependencies for details.
 8. Browser should display variable color
 
 9. Clean test functions and scss
+10. Run `npm update prune`
+
+---
+
+## html-5-eslint-typescript
+
+I prefer to install typescript locally, which changes the commands a bit. To run the transpiler, use `npx tsc`, instead of `tsc file-name.ts`.
+The output file has been set to `./dist` and the input to `./src` in tsconfig.json.
+
+1. `npm init -y`
+
+2. `git init`
+
+3. `npm i -D eslint eslint-plugin-jsdoc eslint-plugin-html eslint-config-prettier @typescript-eslint/eslint-plugin typescript @typescript-eslint/parser `
+
+4. Install airbnb base peer dependencies (eslint eslint-plugin-import)
+   `npx install-peerdeps --dev eslint-config-airbnb-base`
+5. `npm i -D typescript`
+
+6. Restart vscode.
+
+7. If error 'failed to load config airbnb base', run `npm install` and restart vscode
+
+8. Run the typescript transpiler and check for the following error in the console:
+   `src/script.ts:3:22 - error TS2339: Property 'foo' does not exist on type '"1"'. console.log('aaa', a.foo());`
+
+9. Run live server
+
 10. Run `npm update prune`
 
 ---

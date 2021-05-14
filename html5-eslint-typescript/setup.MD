@@ -1,6 +1,6 @@
 ### Note
 
-I prefer to intall typescript locally, this changes the commands a bit. To run the transpiler, use `npx tsc`, instead of `tsc file-name.ts`.
+I prefer to install typescript locally, this which the commands a bit. To run the transpiler, use `npx tsc`, instead of `tsc file-name.ts`.
 The output file has been set to `./dist` and the input to `./src` in tsconfig.json.
 
 1. `npm init -y`
