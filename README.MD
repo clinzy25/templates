@@ -2,7 +2,7 @@ I made these for myself to make project setup a bit quicker and more reliable. T
 
 These templates work on Windows using npm, I have not tested on any other OS or package manager.
 
-Each directory contains the minimal config files for the setup in the directory name. Following commands in setup.MD will allow you to set up your dev environment will all the necessary dependencies quickly and reliably every time. I have made some preferential changes to the configs.
+Each directory contains the minimal config files for the setup in the directory name. Following commands in setup.MD will allow you to set up your dev environment will all the necessary dependencies quickly and reliably every time. I have made some preferential changes to the configs. While you could just download the package.json and run `npm install`, it's good to step through the process, checking for errors along the way.
 
 If you have never used Eslint, you may need to add this line to your VScode settings.json:
 
@@ -133,11 +133,12 @@ Check package.json devDependencies for details.
 2. Install airbnb peer dependencies (eslint, eslint-plugin-import, eslint-plugin-react, eslint-plugin-react-hooks, and eslint-plugin-jsx-a11y)
    `npx install-peerdeps --dev eslint-config-airbnb`
 
-//order is important here, plugins like being installed at the end: 2. `npm i -D eslint-config-prettier eslint-plugin-styled-components-a11y eslint-plugin-jsdoc eslint-plugin-html`
+3. `npm i -D eslint-config-prettier eslint-plugin-styled-components-a11y eslint-plugin-jsdoc eslint-plugin-html`
+   \*\*order is important here, plugins like being installed at the end
 
-3. Run `npm update`
+4. Run `npm update`
    \*\*Eslint version may not be latest and will throw an error with react-scripts.
 
-4. Restart VSCode
+5. Restart VSCode
 
 \*\*If eslint errors from throwing in the browser, create a .env file in the root folder with the flag ESLINT_NO_DEV_ERRORS=true. Add .env to .gitignore
