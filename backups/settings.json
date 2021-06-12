@@ -20,6 +20,9 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[php]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "liveServer.settings.ChromeDebuggingAttachment": true,
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --incognito --remote-debugging-port=9222",
   "workbench.colorTheme": "One Dark Pro",
@@ -45,9 +48,11 @@
   ],
   "debug.allowBreakpointsEverywhere": true,
   "debug.javascript.usePreview": false,
-  "files.autoSaveDelay": 1500,
   "editor.trimAutoWhitespace": false,
   "json.maxItemsComputed": 20000,
   "editor.tabSize": 2,
-  "editor.detectIndentation": false
+  "editor.detectIndentation": false,
+  "emmet.triggerExpansionOnTab": true,
+  "files.autoSave": "afterDelay",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }

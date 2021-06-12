@@ -17,3 +17,5 @@
 - Quokka.js
 - Remote - WSL
 - vscode-styled-components
+- bootstrap 4, font awesome 4 font awe...
+- PHP intellisense
